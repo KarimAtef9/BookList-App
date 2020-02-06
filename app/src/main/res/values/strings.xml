@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book List</string>
+    <string name="search_bar">Search For Books</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_books">No Books Found</string>
+    <string name="author_hint">Author</string>
+    <string name="start">Search For Books</string>
+    <string name="title">Title :&#160;</string>
+    <string name="author">Author :&#160;</string>
+    <string name="category">Category :&#160;</string>
+    <string name="date">Published in :&#160;</string>
+    <string name="description">Description :&#160;</string>
+</resources>

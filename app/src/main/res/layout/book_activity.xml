@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:isScrollContainer="true"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/book_cover"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:src="@mipmap/content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="ssssssssssss ya3absalaaam"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/author"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/book_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="a5oya el kateb abo 7wadit"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/book_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="go3'rafya"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/book_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="ketab ebn kalb gamil gedan a gma3a we yt2ra mra kol 7 snin abl el 3'ada 3ashan bygib soda3 f eidak el shemal"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/book_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3012"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
